@@ -1,19 +1,15 @@
-/*Google Font CDN Link */
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
-html,body{
-    display: grid;
-    height: 100%;
-    place-items: center;
-    /* background: #000; */
+
+body {
+	background: url("img_001_programming.jpg") center no-repeat;
 }
-.text{
-    outline: none;
+
+.wrapper-container {
+	outline: none;
     font-size: 150px;
     font-weight: 800;
     text-transform: uppercase;
@@ -23,8 +19,36 @@ html,body{
     -webkit-text-fill-color: transparent;
     animation: animate 10s linear infinite;
 }
-@keyframes animate {
-    100%{
-        background-position: 400%;
-    }
+
+
+/* Styling the top navigation bar */
+.main-navbar {
+	height: 6rem;
+	width: 100%;
+	background-color: #DDDDDD03;
+	padding-left: 5rem;
+	padding-top: 2rem;
+}
+
+.menu-item {
+	text-decoration: none;
+	color: #111;
+	padding:  1rem;
+}
+
+.menu-item:hover {
+	color: #eee;
+	background-color: #222;
+}
+
+
+/* Styling the heading */
+.heading-wrapper {
+	background-color: #DDDDDD06;
+	padding: 1.5rem;
+	color: #FFF;
+	position: absolute;
+	top:  50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
