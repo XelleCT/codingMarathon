@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("img_001_programming.jpg") center no-repeat;
+}
+
+.wrapper-container {
+	position: relative;
+	height: 100vh;
+}
+
+/* Styling the top navigation bar */
+.main-navbar {
+	height: 6rem;
+	width: 100%;
+	background-color: #DDDDDD03;
+	padding-left: 5rem;
+	padding-top: 2rem;
+}
+
+.menu-item {
+	text-decoration: none;
+	color: #111;
+	padding:  1rem;
+}
+
+.menu-item:hover {
+	color: #eee;
+	background-color: #222;
+}
+
+
+/* Styling the heading */
+.heading-wrapper {
+	background-color: #DDDDDD06;
+	padding: 1.5rem;
+	color: #FFF;
+	position: absolute;
+	top:  50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
